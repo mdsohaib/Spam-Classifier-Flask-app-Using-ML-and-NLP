@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<Body bgcolor="#27c7dc"> 
+
+	<header>
+		<div class="container">
+		<div align="center"><div id="brandname">
+			<h1><p style="color: #ffca28"><b>Machine Learning App with Flask
+		</div></b></p></h1></div>
+		<div align="center" ><h1><p style="color: red">Spam Detector For Email Messages</p></h2></div>
+		
+	</div>
+	</header>
+
+	<div class="ml-container">
+
+		<form action="{{ url_for('predict')}}" method="POST">
+		<div align="center"><p>Enter Your Message Here</p></div>
+	
+		<div align="center"><textarea name="message" rows="6" cols="50"></textarea></div>
+		<br/>
+
+		<div align="center"><input type="submit" style="background-color: #ffca28
+" class="btn-info" value="Predict"></div>
+		<div align="center"><img src="https://popupsmart.com/encyclopedia/images/e/m/a/i/l/email-marketing-spam-folder-b88816b4.jpeg"></div>
+	</form>
+		<h3>Project Created by Pawan Sadhwani
+	</div>
+
+	
+	
+
+</body>
+</html>
