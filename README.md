@@ -1,4 +1,4 @@
-<div align="center"> <img src="Screenshots/main.jpeg" width="500" height="250"> </center> </div>
+<div align="center"> <img src="Screenshots/main.png" width="500" height="250"> </center> </div>
 <h3> Link to Site- https://spam-classifier-flask-app.herokuapp.com/ </h3>
 
  <i> <h2> Spam Classifier </h2>
@@ -33,13 +33,13 @@ Textual data is everywhere be it tweets, posts, or documents. Text based classif
   
   <h1> Screenshots </h1>
   <h2> Input Screen </h2>
-<img src="Screenshots/Screenshot (1).png" /> 
+<img src="Screenshot (1).png" /> 
   
   <br><br>
   
 <h2> Output Screen </h2> 
 
-  <img src="Screenshots/Screenshot (2).png" /> 
+  <img src="Screenshot (2).png" /> 
   
   <br><br>
 
